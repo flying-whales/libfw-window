@@ -1,3 +1,6 @@
 [submodule "lib/libfw-maths"]
 	path = lib/libfw-maths
 	url = https://github.com/flying-whales/libfw-maths.git
+[submodule "lib/libfw-core"]
+	path = lib/libfw-core
+	url = https://github.com/flying-whales/libfw-core.git
