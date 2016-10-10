@@ -1,12 +1,13 @@
 #pragma once
 
 #include <flyingwhales/maths.hpp>
+#include <flyingwhales/core.hpp>
 #include <string>
 
 namespace fw
 {
 
-	class WindowInterface // TODO: Noncopyable
+	class WindowInterface : private Noncopyable
 	{
 	public:
 		virtual ~WindowInterface() = default;

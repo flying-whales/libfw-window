@@ -27,4 +27,5 @@ add_library(fw_window ${libfw_window_src_files} ${libfw_window_include_files})
 fw_process_assembly(fw_window)
 target_include_directories(fw_window PUBLIC ${libfw_window_include_dir})
 
+target_link_libraries(fw_window fw_core)
 target_link_libraries(fw_window fw_maths)
